@@ -1,0 +1,14 @@
+.btn{
+    padding: 0.7rem 1rem;
+    border-radius: 5rem;
+    border: 0.1em solid #6187efd4;
+    cursor: pointer;
+}
+
+.btn__big{
+    padding: 1vw 2.8rem;
+    border-radius: 4.5rem;
+    border: 0.1em solid #fff;
+    cursor: pointer;
+    font-size: 1vw;
+}

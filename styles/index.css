@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost',sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    max-height: 10%;
+    margin: 1rem 0;
+}
+
+#navbar .right{
+    display: flex;
+    gap: 1rem;
+    padding: 1.5rem 3rem;
+}
+
+#navbar img{
+    padding: 1.5rem 3rem;
+    cursor: pointer;
+    height: 4.2vmax;
+    max-width: 100%;
+}
+
+#page__1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    color: #fff;
+}
+
+#page__1 video{
+    height: 100vh;
+    width: 100vw;
+    z-index: -99999;
+    object-fit: cover;
+}
+
+.right i, .right button{
+    background-color: #0940DD;
+    font-weight: 500;
+    font-size: 1vmax;
+}
+
+.bottom__content{
+    position: absolute;
+    bottom: 10%;
+    left: 8vw;
+}
+
+.bottom__content h1{
+    letter-spacing: 2px;
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.bottom__content h3{
+    font-size: 1.2vw;
+    font-weight: 200;
+    opacity: 0.95;
+    line-height: 2vw;
+}
+
+.bottom__content button{
+    font-weight: 100;
+}
+
+.bottom__content .foot{
+    margin-top: 2.5vmax;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+}
+
+#page__2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0A3CCE;
+    position: relative;
+    padding: 0 8vw;
+    color: #fff;
+}
+
+#page__2 h3{
+    font-weight: 350;
+    margin-bottom: 3rem;
+}
+
+#page__2 h1{
+    line-height: 5vmax;
+    font-size: 4vmax;
+    font-weight: 100;
+    width: 82.5%;
+    color: #3B63D8;
+}
